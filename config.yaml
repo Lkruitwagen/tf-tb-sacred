@@ -1,0 +1,10 @@
+batch_size: 32
+data_root: /home/jupyter/tf-tb-sacred/data
+finetune_encoder: false
+generator_mode: resize
+input_shape: !!python/tuple
+- 224
+- 224
+n_epochs: 20
+trn_split: 0.7
+val_split: 0.85
